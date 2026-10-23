@@ -219,8 +219,11 @@ h1 {
   border-bottom: 1px solid var(--line);
 }
 .resource-list > div:last-child { border-bottom: 0; }
-.resource-list.single > div { grid-template-columns: 220px 1fr; }
 .resource-list span { color: #4f5962; }
+
+.resource-list > div {
+    grid-template-columns: minmax(200px, 2fr) minmax(90px, 1fr) minmax(90px, 1fr);
+}
 
 footer {
   color: var(--muted);
