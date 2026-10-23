@@ -253,7 +253,7 @@ footer {
   .exam-grid { grid-template-columns: 1fr; }
   .resource-list > div,
   .resource-list.single > div {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1.5fr;
     gap: 2px;
   }
 }
