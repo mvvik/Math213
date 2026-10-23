@@ -212,14 +212,14 @@ h1 {
 }
 .resource-list > div {
   display: grid;
-  grid-template-columns: 180px 1fr 1fr;
+  grid-template-columns: 200px 1fr 1fr;
   gap: 12px;
   align-items: center;
   padding: 9px 12px;
   border-bottom: 1px solid var(--line);
 }
 .resource-list > div:last-child { border-bottom: 0; }
-.resource-list.single > div { grid-template-columns: 150px 1fr; }
+.resource-list.single > div { grid-template-columns: 140px 1fr; }
 .resource-list span { color: #4f5962; }
 
 footer {
